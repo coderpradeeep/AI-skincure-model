@@ -28,3 +28,4 @@ kagglehub==0.3.12
 pandas==2.2.3
 Image==10.4.0
 matplotlib==3.9.2
+Requires-Python >=3.7
