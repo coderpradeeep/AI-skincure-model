@@ -10,7 +10,7 @@ import io
 app = FastAPI()
 
 # Load the model and labels
-with open("model.pkl", "rb") as model_file:
+with open("skin_cancer_model-0.1.0.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 labels = ["nv", "mel", "bkl", "bcc", "akiec", "vasc", "df"]
