@@ -20,10 +20,10 @@ requests==2.31.0
 seaborn==0.13.2
 scikit-learn==1.5.2
 scipy==1.14.1
-torch==2.2.0+cpu
-torchvision==0.22.0+cpu
+torch>=2.2.0+cpu
+torchvision>=0.17.0+cpu
 kagglehub==0.3.12
 pandas==2.2.3
 Image==10.4.0
 matplotlib==3.9.2
-Requires-Python>=3.7
+Requires-Python>=1.6.2
