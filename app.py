@@ -1,3 +1,4 @@
+import uvicorn
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
 from PIL import Image
@@ -11,6 +12,8 @@ app = FastAPI()
 # Load the model and labels
 with open("model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
+
+labels = ["nv", "mel", "bkl", "bcc", "akiec", "vasc", "df"]
 
 
 @app.get('/')
