@@ -1,1 +1,5 @@
 HAM10000_dataset/
+.venv/
+.ipynb_checkpoints/
+.idea/
+AI-SkinCure-model.ipynb
