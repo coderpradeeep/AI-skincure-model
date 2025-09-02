@@ -1,11 +1,11 @@
 FROM python:3
 
-COPY ./requirement.txt /app/requirement.txt
+COPY ./requirements.txt /app/requirements.txt
 COPY ./skin_cancer_model-0.1.0.pkl /app/skin_cancer_model-0.1.0.pkl
 
 WORKDIR /app
 
-RUN pip install -r requirement.txt
+RUN pip install -r requirements.txt
 
 COPY . /app
 
