@@ -13,7 +13,7 @@ with open("skin_cancer_model-0.1.0.pkl", "rb") as f:
 
 
 @app.get("/")
-def index():
+async def index():
     return {"message": "Skin Disease Detection API is running!"}
 
 
